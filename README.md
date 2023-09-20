@@ -2,6 +2,19 @@
 
 Implementing repository pattern for working with DynamoDB and Zod
 
+## Getting started
+
+```
+# install deps
+pnpm install
+
+# in another shell, start up local DynamoDB
+pnpm dynamodb
+
+# run tests
+pnpm test
+```
+
 ## The Repository pattern
 
 > Have thing that handle persistence
